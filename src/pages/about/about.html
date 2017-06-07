@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	 <button ion-button color="secondary" block (click)="doPrompt()">Show Prompt Alert</button>
+
+	 <ion-input type="text" placeholder="Enter Some Text here" [(ngModel)]="data" > 	</ion-input>
+	 <button ion-button (click)="nextPage()"	> Click to open Contact Page </button>
+</ion-content>
